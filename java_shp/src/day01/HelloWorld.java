@@ -18,5 +18,4 @@ public class HelloWorld {
 		System.out.println("Hello world!");
 		//sysout은 콘솔 출력할 때 사용
 	}
-
 }
