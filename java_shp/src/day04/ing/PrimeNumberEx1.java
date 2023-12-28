@@ -1,4 +1,4 @@
-package day04_0;
+package day04.ing;
 
 public class PrimeNumberEx1 {
 

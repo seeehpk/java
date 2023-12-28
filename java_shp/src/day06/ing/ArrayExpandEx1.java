@@ -1,4 +1,4 @@
-package day06_0;
+package day06.ing;
 
 public class ArrayExpandEx1 {
 
