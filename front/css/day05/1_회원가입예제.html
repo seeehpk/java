@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input-box::after{
+            clear: both; content: '';
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>회원가입</legend>
+            <div class="input-box">
+                <label for="id">아이디</label>
+                <input type="text" name="id" id="id">
+            </div>
+            <div class="input-box">
+                <label for="pw">비밀번호</label>
+                <input type="password" name="pw" id="pw">
+            </div>
+            <div class="input-box">
+                <label for="pw2">비밀번호 확인</label>
+                <input type="password" name="pw2" id="pw2">
+            </div>
+            <div class="input-box">
+                <button type="submit">작성하기</button>
+            </div>
+        </fieldset>
+    </form>
+    <ul class="menu-list">
+        <li class="menu-item">
+            <a href="#" class="number">번호</a>
+            <ul class="sub-list">
+                <li class="sub-item">
+                    <a href="#" class="num">2</a>
+                </li>
+                <li class="sub-item">
+                    <a href="#" class="num">1</a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-item">
+            <a href="#" class="title">기사 제목</a>
+            <ul class="sub-list">
+                <li class="sub-item">
+                    <a href="#" class="news">HTML은 프로그래밍 언어인가에 대해..</a>
+                    <a href="#" class="news">기사보기</a>
+                </li>
+                <li class="sub-item">
+                    <a href="#" class="news">오늘의 기사</a>
+                    <a href="#" class="news">기사보기</a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-item">
+            <a href="#" class="number">조회수</a>
+            <ul class="sub-list">
+                <li class="sub-item">
+                    <a href="#" class="views">2</a>
+                </li>
+                <li class="sub-item">
+                    <a href="#" class="views">10</a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-item">
+            <a href="#" class="total">전체 기사 개수</a>
+            <ul class="sub-list">
+                <li class="sub-item">
+                    <a href="#" class="totalnum">2</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
